@@ -1,0 +1,95 @@
+.attendance-tracker {
+  text-align: center;
+  background-color: #f5f5f5;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin: 20px auto;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+  max-width: 80rem;
+}
+
+.attendance-form {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  margin-bottom: 20px;
+  align-items: center;
+}
+
+h2 {
+  margin-top: 0;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 10px;
+}
+
+label {
+  font-weight: bold;
+}
+
+.attendance-form input[type="text"] {
+  flex: 1;
+  padding: 8px;
+  margin: 10px;
+  min-width: 30rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.attendance-form input[type="date"] {
+  flex: 1;
+  padding: 8px;
+  margin: 10px;
+  min-width: 30rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+
+.attendance-form button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.attendance-list h3 {
+  margin-top: 20px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  font-size: 16px;
+  margin-bottom: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+li button {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+li button:hover {
+  background-color: #d32f2f;
+}

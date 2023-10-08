@@ -1,0 +1,115 @@
+
+/* Container styling */
+.attendance-tracker {
+  background-color: #f7f7f7;
+  border-radius: 10px;
+  margin: 20px auto;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  max-width: 800px;
+  text-align: center;
+}
+
+/* Title styling */
+.attendance-tracker h2 {
+  font-size: 32px;
+  margin-top: 0;
+  color: #333;
+}
+
+/* Grid view for tutorials */
+.attendance-tracker .tutorial-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-gap: 20px;
+  justify-items: center;
+  margin-top: 20px;
+}
+
+/* Tutorial tile styling */
+.attendance-tracker .tutorial-tile {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+  cursor: pointer;
+  text-align: center;
+}
+
+.attendance-tracker .tutorial-tile:hover {
+  transform: scale(1.02);
+}
+
+/* Tutorial text styling */
+.attendance-tracker .tutorial-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 10px 0;
+  color: #333;
+}
+
+.attendance-tracker .tutorial-venue {
+  font-size: 18px;
+  color: #555;
+}
+
+/* Check-in button styling */
+.attendance-tracker button.check-in-button {
+  background-color: #007bff;
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 20px;
+  font-size: 18px;
+  transition: background-color 0.2s;
+}
+
+.attendance-tracker button.check-in-button:hover {
+  background-color: #0056b3;
+}
+
+/* Attendance status styling */
+.attendance-status {
+  font-size: 24px;
+  margin-top: 20px;
+  font-weight: bold;
+  color: #333;
+}
+
+.attendance-status.present {
+  color: #4caf50; /* Green color for 'Present' */
+}
+
+.attendance-status.absent {
+  color: #f44336; /* Red color for 'Absent' */
+}
+
+/* Select element styling */
+.attendance-tracker select {
+  padding: 12px;
+  font-size: 18px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #f9f9f9;
+  cursor: pointer;
+  width: 40rem;
+  margin-top: 20px;
+  appearance: none;
+}
+
+/* Option styling */
+.attendance-tracker select option {
+  padding: 8px;
+  font-size: 18px;
+}
+
+/* Select focus styling */
+.attendance-tracker select:focus {
+  outline: none;
+  border-color: #007bff; /* Change this color as needed */
+  box-shadow: 0 0 8px rgba(0, 123, 255, 0.6); /* Change this shadow as needed */
+}

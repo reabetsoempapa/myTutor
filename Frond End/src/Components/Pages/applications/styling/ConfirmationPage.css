@@ -1,0 +1,30 @@
+.confirmation-container {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align:start;
+}
+
+.confirmation-title {
+    color: #007bff;
+}
+
+.confirmation-details {
+    margin-top: 20px;
+}
+
+.course-history-title {
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.course-list {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 10px;
+}
+
+.course-item {
+    margin-top: 5px;
+}

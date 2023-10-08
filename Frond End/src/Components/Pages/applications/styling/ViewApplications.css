@@ -1,0 +1,42 @@
+/* Styling for ViewApplications component */
+
+.view-applications-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.view-applications-container h2 {
+    margin-bottom: 20px;
+}
+
+.applications-table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+.applications-table th,
+.applications-table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.applications-table th {
+    background-color: #529ef0;
+    color: white;
+}
+
+.applications-table a {
+    text-decoration: none;
+    color: #5aa9ff;
+    font-weight: bold;
+}
+
+.applications-table a:hover {
+    text-decoration: underline;
+}

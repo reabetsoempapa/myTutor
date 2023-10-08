@@ -1,0 +1,72 @@
+/* Styling for CreateApplication component */
+
+.create-application-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.create-application-container label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.create-application-container input[type="text"],
+.create-application-container input[type="date"],
+.create-application-container textarea {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 16px;
+}
+
+.create-application-button {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.create-application-button:hover {
+    background-color: #99d2e0;
+}
+
+.access-link-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.access-link-container p {
+    font-weight: bold;
+}
+
+.copy-link-button {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.copy-link-button:hover {
+    background-color: #0056b3;
+}

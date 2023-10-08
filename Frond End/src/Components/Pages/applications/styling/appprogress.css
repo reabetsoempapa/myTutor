@@ -1,0 +1,51 @@
+.tablets {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.tablet {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px 5px 0 0;
+    margin: 1px;
+    cursor: pointer;
+}
+.tablet.active {
+    background-color: #0056b3;
+}
+.content {
+    width: 90%;
+    margin: auto;
+    padding: 10px;
+    background-color: white;
+    border-radius: 0 0 5px 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.application-list {
+    list-style: none;
+    padding: 0;
+}
+.application {
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.application.pending {
+    border-color: #ffc107;
+}
+.application .success {
+    border-color: #28a745;
+}
+.application h3 {
+    margin: 0;
+}
+.application.status {
+    font-weight: bold;
+}

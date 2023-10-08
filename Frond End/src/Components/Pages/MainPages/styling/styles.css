@@ -1,0 +1,106 @@
+.Logginbody {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.welcome-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    text-align: center;
+}
+.welcome-container h1 {
+    margin-bottom: 20px;
+}
+.welcome-container p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.welcome-container a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color:#89cff0;
+    color: white;
+    text-decoration: none;
+    border-radius: 3px;
+    font-weight: bold;
+}
+
+.signup-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    text-align: center;
+}
+.signup-container h1 {
+    margin-bottom: 20px;
+}
+.signup-container form {
+    text-align: left;
+}
+.signup-container label {
+    display: block;
+    margin-bottom: 5px;
+}
+.signup-container input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+.signup-container button {
+    width: 100%;
+    padding: 10px;
+    background-color:#89cff0;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.login-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+}
+
+.login-container input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+a{
+    text-decoration: none;
+    color: black;
+  }
+
+.login-container button {
+    width: 100%;
+    padding: 10px;
+    background-color: #89cff0;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.feedBack{
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    color: #ec1414;
+}
+

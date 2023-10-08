@@ -1,0 +1,44 @@
+/* Container styles */
+.admin-view-app-progress-container {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Title styles */
+.admin-view-app-progress-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* View buttons styles */
+.view-buttons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.view-button {
+    padding: 10px 20px;
+    margin: 0 10px;
+    border: 2px solid #3190f5;
+    border-radius: 5px;
+    background-color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s, border 0.3s;
+    font-size: 16px;
+}
+
+.view-button.active {
+    background-color: #64a8f0;
+    color: #fff;
+}
+
+/* View content styles */
+.view-content {
+    /* Add your styles for the content area here */
+}

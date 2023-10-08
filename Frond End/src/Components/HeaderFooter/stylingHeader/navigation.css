@@ -1,0 +1,58 @@
+/* Assuming you have a CSS file, e.g., styles.css */
+.navigation {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    padding: 15px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    border-radius: 10px;
+  }
+  
+  .nav-pills {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-pill {
+    margin: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .nav-link {
+    text-decoration: none;
+    color: #444;
+    padding: 10px 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .nav-link:hover {
+    background-color: #f2f2f2;
+  }
+  
+  .activeNav {
+    background-color: #336b99;
+    color: white;
+    border: none;
+  }
+  
+  /* Additional styles for the active link */
+  .activeNav::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    height: 100%;
+    background-color: #5e9bd0;
+    border-radius: 30px;
+    z-index: -1;
+  }
+  
